@@ -1,5 +1,5 @@
 
-ERROR WHEN USING 'http://localhost:8080/rentals' 
+//ERROR WHEN USING 'http://localhost:8080/rentals'
 {
 "timestamp": "2024-11-06T15:30:56.509+00:00",
 "status": 415,
