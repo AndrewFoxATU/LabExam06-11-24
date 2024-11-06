@@ -30,7 +30,7 @@ public class InfoController {
         return myInfo.putInfo(info);
     }
 
-    @PutMapping("/rentals/{rentalCode}")
+    @DeleteMapping("/rentals/{rentalCode}")
     public List<Info> deleteInfo(@Valid @RequestBody Info info) {
         return myInfo.deleteInfo(info);
     }
